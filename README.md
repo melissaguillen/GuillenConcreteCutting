@@ -43,13 +43,13 @@ to advertise and connect with company.
 ## Design
 
 
--Device to build website: MacBook Air
--Device platforms: mobile & desktop
--Code Editor: Visual Studio Code
--Languages: HTML, CSS, JavaScript
--Key features: Website allows user to reach out to company directly.
--Major Milestones:
--Design Outline:
+- Device to build website: MacBook Air
+- Device platforms: mobile & desktop
+- Code Editor: Visual Studio Code
+- Languages: HTML, CSS, JavaScript
+- Key features: Website allows user to reach out to company directly.
+- Major Milestones:
+- Design Outline:
 	1st page: about site and site author (index.html to follow req.)
 	2nd page: about company, including mission statement, and backstory 
 	(landing/home page)
@@ -57,17 +57,17 @@ to advertise and connect with company.
 	4th page: what the company offers and where 
 	5th page: company’s past work and description
 	6th page: company’s contact info and place to get estimates
--Design type:Webbed website structure where the 2nd page is the parent 
+- Design type:Webbed website structure where the 2nd page is the parent 
 page, the others are child pages, but all can be accessed through one 
 another 
--Design diagrams/wireframes:
--Design colors:Company colors: Navy blue, Gray, Black, and Red
+- Design diagrams/wireframes:
+- Design colors:Company colors: Navy blue, Gray, Black, and Red
 Using these colors will allow company to advertise their brand in a 
 consistent way since they have uniforms that will be consistent with the 
 site. The primary color is gray since that is what is on their logo (a 
 concrete cutting blade), which is what the color of concrete is, so I 
 think the purpose is delivered well with that color.
--Design acessibility: 
+- Design acessibility: 
 •All graphics will have captions and alt text
 •Comply with 508 compliance
 •Comply with Copyright & Fair Use principle
