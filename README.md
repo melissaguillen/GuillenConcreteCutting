@@ -14,17 +14,20 @@ Markdown Guide Website: [MarkDown Guide](https://www.markdownguide.org/basic-syn
 
 ## Project Members:
 
-- Team Name:
-- Team member 1 name:
-- Team member 2 name:
+- Team Name:MG Final
+- Team member 1 name:Melissa Guillen
 
 ## Quick View
 
-- Website Name:
-- Website purpose:
-- Intended Audience:
-- Frameworks and/or library used:
-- Additional Notes:
+- Website Name:Guillen's Croncete Cutting
+- Website purpose:Advertise and inform customers of company
+(Guillen’s Concrete Cutting)
+- Intended Audience:Target Audience would be contractors seeking a company 
+to do labor relating to concrete. Age: 39+ Gender: Majority Men 
+Demographics: White (61.9%), Hispanic or Latino (24.1%), Black or African 
+American (8%) and Unknown (3.7%)
+ - Frameworks and/or library used:Broostrap & JavaScript
+ - Additional Notes:N/A
 
 # Project Plan
 
@@ -32,42 +35,61 @@ This readme contains the project plan for my individual/group project. As the pr
 
 ## Topic
 
-Briefly describe the topic and goals for your project here.
+The goal for this project is to demonstrate my knowledge that I acquired 
+in Web Development through the building of a website from scratch. The 
+goal of the website is to provide an organized and visually appealing way 
+to advertise and connect with company. 
 
 ## Design
 
-Outline the overall design for your project. This may include:
 
-- What technologies, frameworks, or languages you plan to use
-- Key features or components of the project
-- Major milestones or phases of development
-- Any design diagrams or wireframes if applicable
+-Device to build website: MacBook Air
+-Device platforms: mobile & desktop
+-Code Editor: Visual Studio Code
+-Languages: HTML, CSS, JavaScript
+-Key features: Website allows user to reach out to company directly.
+-Major Milestones:
+-Design Outline:
+	1st page: about site and site author (index.html to follow req.)
+	2nd page: about company, including mission statement, and backstory 
+	(landing/home page)
+	3rd page: company’s workers and their stories
+	4th page: what the company offers and where 
+	5th page: company’s past work and description
+	6th page: company’s contact info and place to get estimates
+-Design type:Webbed website structure where the 2nd page is the parent 
+page, the others are child pages, but all can be accessed through one 
+another 
+-Design diagrams/wireframes:
+-Design colors:Company colors: Navy blue, Gray, Black, and Red
+Using these colors will allow company to advertise their brand in a 
+consistent way since they have uniforms that will be consistent with the 
+site. The primary color is gray since that is what is on their logo (a 
+concrete cutting blade), which is what the color of concrete is, so I 
+think the purpose is delivered well with that color.
+-Design acessibility: 
+•All graphics will have captions and alt text
+•Comply with 508 compliance
+•Comply with Copyright & Fair Use principle
+•Responsive between mobile and desktop
+
 
 ## Timeline
 
 These Timeline milestones are an example for project progression and do not, with the exception of the Due Date for the final submission, do not conform to assignment requirements. You can add and adjust your timeline as you see fit.
 
-- [ ] Choose revised project topic and update this readme - Sunday, October 22.
+- [X] Choose revised project topic and update this readme - Sunday, October 22.
 - [ ] Complete initial project design - Due Date
 - [ ] Milestone 1 - Due Date
 - [ ] Milestone 2 - Due Date
 - [ ] Site testing - Due Date
 - [ ] Complete Final Project - **Friday, December 8**
 
-## Collaboration (for group projects)
-
-If this is a group project, discuss:
-
-- How you will review and reconcile your designs and plans
-- How you plan to collaborate and divide up the work
-- How you will integrate code and components from team members
-- Any team norms or rules
-
 ## Updates
 
 As you work on the project, use this section to track:
 
-- Status updates
+- Status updates: edit ReadMe
 - Changes to the original plan
 - Anything learned along the way
 - Next steps
