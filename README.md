@@ -90,7 +90,7 @@ These Timeline milestones are an example for project progression and do not, wit
 
 As you work on the project, use this section to track:
 
-- Status updates: edit ReadMe
+- Status updates: adding visual project plan pdf
 - Changes to the original plan
 - Anything learned along the way
 - Next steps
