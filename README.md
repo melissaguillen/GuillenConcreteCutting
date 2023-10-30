@@ -60,7 +60,8 @@ to advertise and connect with company.
 - Design type:Webbed website structure where the 2nd page is the parent 
 page, the others are child pages, but all can be accessed through one 
 another 
-- Design diagrams/wireframes:
+- Design 
+diagrams/wireframes:Guillen_Concrete_Cutting.pdf
 - Design colors:Company colors: Navy blue, Gray, Black, and Red
 Using these colors will allow company to advertise their brand in a 
 consistent way since they have uniforms that will be consistent with the 
