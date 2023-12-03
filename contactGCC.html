@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,12 +15,12 @@
         <!-- logo img -->
         <nav>
             <ul>
-                <li><a href="index.html">About Author & Purpose</a></li>
-                <li><a href="aboutGCC.html">Home</a></li>
-                <li><a href="historyGCC.html">GCC History</a></li>
-                <li><a href="employeesGCC.html">GCC Employees</a></li>
-                <li><a href="servicesGCC.html">GCC Services</a></li>
-                <li><a href="contactGCC.html">Contact GCC</a></li>
+                <li class="menu"><a href="aboutGCC.html">Home</a></li>
+                <li class="menu"><a href="index.html">About Author & Purpose</a></li>
+                <li class="menu"><a href="historyGCC.html">GCC History</a></li>
+                <li class="menu"><a href="employeesGCC.html">GCC Employees</a></li>
+                <li class="menu"><a href="servicesGCC.html">GCC Services</a></li>
+                <li class="menu"><a href="contactGCC.html">Contact GCC</a></li>
             </ul>
         </nav>
     </header>
@@ -32,6 +33,9 @@
             wished to be reached through phone please leave your 
             phone details in the message input.
             </p>
+            <video playsinline autoplay muted loop aria-label="Drone Video" poster="Video/droneVid.mp4" class="backgroundVid">
+                <source src="Video/droneVid.mp4" type="video/mp4">
+            </video>
         </div>
         <form action="https://formsubmit.co/guillenconcretecutting@yahoo.com" method="POST">
             <input type="text" name="name" placeholder="Full Name">
@@ -42,7 +46,9 @@
             <input type="hidden" name="_captcha" value="false">
             <button type="submit">Send</button>
        </form>
-       <h3>A special thank you to <a href="https://formsubmit.co/" target="_blank">formsubmit.co</a> for making this submission possible!</h3>
+       <p>A special thank you to <a href="https://formsubmit.co/" target="_blank">formsubmit.co</a> for making this submission possible!</p>
+       <p>Video was converted from mov to mp4 using <a href="https://cloudconvert.com/mov-to-mp4" target="_blank">Cloud Convert</a>.</p>
+
     </main>
     <footer>
       <a href="contactGCC.html">Contact Us</a>
