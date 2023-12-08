@@ -1,0 +1,35 @@
+#historyTable {
+    width: 90%;
+    color:#73737a;
+    background-color: white;
+    border:  thick solid #73737a;
+    margin-left: auto;
+    margin-right: auto;
+}
+.historyRow {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 100%;
+    justify-content: space-between;
+}
+.cell {
+    width: 100%;
+}
+.cell > img {
+    width: 100%;
+}
+.cell:nth-child(2) {
+    font-weight: bold;
+    font-size: larger;
+}
+@media (min-width: 700px) {
+    .cell:nth-child(2) {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        font-size: 2rem;
+    }
+    .cell > img {
+        width: 70%;
+    }
+}

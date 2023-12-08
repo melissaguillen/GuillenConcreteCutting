@@ -8,23 +8,27 @@ body {
     width: 100%;
     background-color: #1e3b69;
     color: white;
+    /* text-align: center; */
 }
 nav {
-    background-color: #84848d;
-    /* padding: 7px 14px; */
+    background-color: #5a5a5c;
+}
+main {
+    margin-top: 5rem;
+    text-align: center;
 }
 #top {
-    background-color: #84848d;
+    background-color: #5a5a5c;
     width: 100%;
     display: flex;
 }
-#number {
+#top > a {
     margin-top: 0.5rem;
     margin-left: auto;
     margin-right: 0.5rem;
-    color: black;
     margin-bottom: 0.5rem;
     font-weight: bolder;
+    height: 100%;
 }
 nav > ul {
     display: flex;
@@ -34,7 +38,30 @@ nav > ul {
     text-align: center;
 } 
 .menuLinks:hover {
-    background-color: #5a5a5c;
+    background-color: #49494a;
+}
+@keyframes navHover {
+    0% {
+        background-color: #49494a;
+    }
+    50% {
+        background-color: #964e45;
+    }
+    100% {
+        background-color: #e82a20;
+    }
+}
+.menuLinks:active {
+    animation-name: navHover;
+    animation-duration: 0.5s;
+}
+@keyframes navOnClick {
+    50% {
+        border-bottom: 0.5px solid #14294b;
+    }
+}
+.selected{
+    animation: navOnClick 2s;
 }
 .menuLinks  {
     padding: 1rem;
@@ -44,15 +71,58 @@ a{
     text-decoration: none;
 }
 a:link{
-    color: white;
+    color: #14294b;
 }
 a:visited{
     color: black;
 }
-/* section:last-child{
+a:hover {
+    color: red;
+}
+h1::after {
+    content: " ";
+    height: 0.30rem;
+    width: 0.30rem;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 0.35rem #49494a;
+}
+.backgroundImage{
+    width: 100%;
+    filter: brightness(40%);
+}
+/* h1 {
+    position: relative;
+    top: -20rem;
+} */
+.embed {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+.image{
+    width: 25%;
+}
+figcaption {
+    font-size: xx-small;
+    position: relative;
+    left: 1.5rem;
+    /* text-align: center; */
+    white-space: nowrap;
+}
+section{
+    padding: 2rem;
+}
+section:last-child{
     background-color: aliceblue;
     color: #73737a;
-} */
+}
+footer {
+    background-color: #5a5a5c;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
 @media (max-width:699px){
     #menu {
         display: none;
@@ -60,7 +130,6 @@ a:visited{
     #hamburger {
         background-color: transparent;
         border: none;
-        /* margin-top: 0.5rem; */
         margin-left: 0.5rem;
         position: relative;
         top: -2rem;
@@ -80,7 +149,11 @@ a:visited{
     }
     nav {
         position: relative;
-        top: -2rem;
+        top: -2.60rem;
+    }
+    h1 {
+        position: relative;
+        top: -10rem;
     }
 }
 @media (min-width: 700px) {
@@ -89,6 +162,10 @@ a:visited{
     }
     #logo {
         margin: 1.25rem 40%;
+    }
+    h1 {
+        position: relative;
+        top: -20rem;
     }
 }
 
