@@ -49,26 +49,46 @@
             phone details in the message input.
             </p>
         </div>
-            
-        
-        <form action="https://formsubmit.co/66079627dde623f8e622c7a3779ddb91" method="POST">
-            <input type="text" name="name" placeholder="Full Name">
-            <input type="email" name="email" placeholder="Email Address" required>
-            <input placeholder="Your Message" name="message" required>
-            <input list="typeOfWork" id="typeOfWorkChoice" name="type">
+        <section>
+          <form action="https://formsubmit.co/66079627dde623f8e622c7a3779ddb91" method="POST">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" placeholder="Full Name">
+              <label for="email">Reply Email:</label>
+              <input type="email" name="email" placeholder="Email Address" required>
+              <label for="message">Message:</label>
+              <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+              <label for="type">Type of Work:</label>
+              <input list="typeOfWork" name="typeOfWorkChoice" id="type">
               <datalist id="typeOfWork">
                 <option value="Residential"></option>
                 <option value="Commercial"></option>
                 <option value="Education"></option>
               </datalist>
-            <input type="hidden" name="_autoresponse" value="Thank you for contancting Guillen Concrete Cutting, we will address your submission in 1-2 business days!">
-            <input type="hidden" name="_subject" value="Contact from Webpage!">
-            <input type="hidden" name="_next" value="https://twucsci.github.io/preparing-for-the-final-project-melissaguillen/thanks.html">
-            <button type="submit">Send</button>
-       </form>
-       <p>A special thank you to <a href="https://formsubmit.co/" target="_blank">formsubmit.co</a> for making this submission possible!</p>
-       <p>Video was converted from mov to mp4 using <a href="https://cloudconvert.com/mov-to-mp4" target="_blank">Cloud Convert</a>.</p>
-
+              <label for="location">Select Location:</label>
+              <select name="locationChoice" id="location">
+                  <option value="austin">Austin, TX</option>
+                  <option value="austin">Dallas, TX</option>
+                  <option value="austin">Houston, TX</option>
+                  <option value="austin">Other Location in TX</option>
+              </select>
+              <fieldset>
+                <legend>Select Best Time for a Reply:</legend>
+                <label for="morning">Morning</label>
+                <input type="radio" value="morning" id="morning" name="time">
+                <label for="evening">Evening</label>
+                <input type="radio"  value="evening" id="evening" name="time">
+              </fieldset>
+              <input type="hidden" name="_autoresponse" value="Thank you for contancting Guillen Concrete Cutting, we will address your submission in 1-2 business days!">
+              <input type="hidden" name="_subject" value="Contact from Webpage!">
+              <input type="hidden" name="_next" value="https://twucsci.github.io/preparing-for-the-final-project-melissaguillen/thanks.html">
+              <button type="submit">Send</button>
+          </form>
+      </section>
+      <section>
+        <h3>Shout Outs!</h3>
+        <p>A special thank you to <a href="https://formsubmit.co/" target="_blank">formsubmit.co</a> for making this submission possible!</p>
+        <p>Video was converted from mov to mp4 using <a href="https://cloudconvert.com/mov-to-mp4" target="_blank">Cloud Convert</a>.</p>
+      </section>
     </main>
     <footer>
       <a href="contactGCC.html">Contact Us</a>

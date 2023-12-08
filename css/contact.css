@@ -10,3 +10,18 @@
         top: -20rem;
     }
 }
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+input, textarea, button, fieldset, select {
+    margin: 0.25rem;
+}
+textarea, button, fieldset {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+/* input:nth-child(3) {
+    height:5rem;
+} */
