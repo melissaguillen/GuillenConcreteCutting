@@ -1,3 +1,12 @@
-#contactHeading {
-    position: initial;
+@media (max-width:699px) {
+    #contactContent > p {
+        position: relative;
+        top: -10rem;
+    }
+}
+@media (min-width:700px) {
+    #contactContent > p {
+        position: relative;
+        top: -20rem;
+    }
 }

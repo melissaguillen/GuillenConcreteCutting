@@ -37,7 +37,10 @@
         </nav>
   </header>
     <main>
-        <div id="contactBackground">
+        <div id="contactContent">
+            <video class="embed" playsinline autoplay muted loop aria-label="Drone Video" poster="Video/droneVid.mp4" class="backgroundVid">
+                <source src="Video/droneVid.mp4" type="video/mp4">
+            </video>
             <h1 id="contactHeading">Contact Us</h1>
             <p>
             Feel free to contact us directly through this form! 
@@ -45,14 +48,19 @@
             wished to be reached through phone please leave your 
             phone details in the message input.
             </p>
-            <video class="embed" playsinline autoplay muted loop aria-label="Drone Video" poster="Video/droneVid.mp4" class="backgroundVid">
-                <source src="Video/droneVid.mp4" type="video/mp4">
-            </video>
         </div>
+            
+        
         <form action="https://formsubmit.co/66079627dde623f8e622c7a3779ddb91" method="POST">
             <input type="text" name="name" placeholder="Full Name">
             <input type="email" name="email" placeholder="Email Address" required>
             <input placeholder="Your Message" name="message" required>
+            <input list="typeOfWork" id="typeOfWorkChoice" name="message">
+              <datalist id="typeOfWork">
+                <option value="Residential"></option>
+                <option value="Commercial"></option>
+                <option value="Education"></option>
+              </datalist>
             <input type="hidden" name="_autoresponse" value="Thank you for contancting Guillen Concrete Cutting, we will address your submission in 1-2 business days!">
             <input type="hidden" name="_subject" value="Contact from Webpage!">
             <input type="hidden" name="_next" value="https://twucsci.github.io/preparing-for-the-final-project-melissaguillen/thanks.html">

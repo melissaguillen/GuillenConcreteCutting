@@ -166,6 +166,16 @@ footer {
     h1 {
         position: relative;
         top: -20rem;
+        font-size: 3rem;
+    }
+    h1::after {
+        content: " ";
+        height: 0.45rem;
+        width: 0.45rem;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0 0 0 0.5rem #49494a;
     }
 }
 
