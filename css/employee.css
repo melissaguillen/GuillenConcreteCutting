@@ -20,6 +20,10 @@
 .employeeCell > img {
     width: 100%;
 }
+.employeeCell > strong {
+    font-weight: bolder;
+    font-size: large;
+}
 @media (min-width: 700px){
     .employeeRow:nth-child(2) {
         background-color: #d6d6da;
