@@ -10,9 +10,9 @@ var text = document.createTextNode("Thank You, "+thanksName+ "!")
  request.open("GET", "https://zenquotes.io/api/random");
  request.responseType = "json";
  request.send();
- request.onload = function(){
-    if (request.readyState == 4 && request.status == 200) {
-        var apiResponse = request.response;
+ request.onreadystatechange = function(){
+    if (this.readyState == 4 && this.status == 200) {
+        var apiResponse = request.responseText;
         var parsedResponse = JSON.parse(apiResponse);
         var quote = parsedResponse.q;
         var author = parsedResponse.a;
