@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/employee.css">
+    <link id="baseCSS" rel="stylesheet" href="css/foundation.css">
+    <link id="employeeCSS" rel="stylesheet" href="css/employee.css">
     <script type="text/javascript" src="js/menu.js" async></script>
+    <script type="text/javascript" src="js/changeMode.js" async></script>
     <title>Our Team</title>
   </head>
   <body>
@@ -16,6 +17,13 @@
     <header>
         <div id="top">
             <a href="contactGCC.html">469-503-1639</a>
+            <label for="cssOption">Select Mode:</label>
+              <select name="cssChoice" id="cssOption">
+                  <option value="select"></option> 
+                  <option value="light">Light</option>
+                  <option value="regular">Regular</option>
+                  <option value="magnified">Magnified</option>
+              </select>
           </div>
           <figure id="logo">
             <a href="aboutGCC.html"><img src="Images/guillenLogo.png" alt="Company Logo"></a>
@@ -46,27 +54,27 @@
       </div>
       <div id="employeeTable">
         <div class="employeeRow">
-            <div class="cell"><img src="Images/daniel.jpg" alt="Image of Daniel cutting concrete"></div>
-            <div class="cell"><strong>Daniel Guillen</strong></div>
-            <div class="cell"><p>Owner and <a href= "https://www.ziprecruiter.com/career/Concrete-Cutting/What-Is-How-to-Become#:~:text=As%20a%20concrete%20cutter%2C%20your,the%20size%20of%20the%20project." target=”_blank”>Concrete Cutter</a></p></div>
-            <div class="cell">Over 5 years 
+            <div class="employeeCell"><img src="Images/daniel.jpg" alt="Image of Daniel cutting concrete"></div>
+            <div class="employeeCell"><strong>Daniel Guillen</strong></div>
+            <div class="employeeCell"><p>Owner and <a href= "https://www.ziprecruiter.com/career/Concrete-Cutting/What-Is-How-to-Become#:~:text=As%20a%20concrete%20cutter%2C%20your,the%20size%20of%20the%20project." target=”_blank”>Concrete Cutter</a></p></div>
+            <div class="employeeCell">Over 5 years 
                 of experience cutting concrete and over 10 years of 
                 experience of running a business. Outside of his 
                 business, Guillen enjoys taking care of his many animals 
                 in his land in the rural part of Texas.</div>
         </div>
         <div class="employeeRow">
-            <div class="cell"><img src="Images/david.jpg" alt="Image of David"></div>
-            <div class="cell"><strong>David Guillen</strong></div>
-            <div class="cell"><p>Head Concrete Cutter and Operations Manager</p></div>
-            <div class="cell"> Over 3 years 
+            <div class="employeeCell"><img src="Images/david.jpg" alt="Image of David"></div>
+            <div class="employeeCell"><strong>David Guillen</strong></div>
+            <div class="employeeCell"><p>Head Concrete Cutter and Operations Manager</p></div>
+            <div class="employeeCell"> Over 3 years 
                 of experience cutting concrete and 2 years overseeing labor operations at job sites.</div>
         </div>
         <div class="employeeRow">
-            <div class="cell"><img src="Images/diocelina.png" alt="Image of Diocelina"></div>
-            <div class="cell"><strong>Diocelina Guillen</strong></div>
-            <div class="cell"><p><a href="https://ca.indeed.com/hire/job-description/invoice-clerk#:~:text=An%20Invoice%20Clerk%2C%20or%20Billing,handling%20incoming%20and%20outgoing%20invoices." target=”_blank”>Billing Clerk</a> & Office Manager</p></div>
-            <div class="cell">Over 4 years of experience 
+            <div class="employeeCell"><img src="Images/diocelina.png" alt="Image of Diocelina"></div>
+            <div class="employeeCell"><strong>Diocelina Guillen</strong></div>
+            <div class="employeeCell"><p><a href="https://ca.indeed.com/hire/job-description/invoice-clerk#:~:text=An%20Invoice%20Clerk%2C%20or%20Billing,handling%20incoming%20and%20outgoing%20invoices." target=”_blank”>Billing Clerk</a> & Office Manager</p></div>
+            <div class="employeeCell">Over 4 years of experience 
                 of handling finances and overseeing office operations for the company. Outside of the company 
                 Guillen works as a full time teacher at a middle school, she 
                 currently has a master's in Education Administration from 

@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/foundation.css">
+    <link id="baseCSS" rel="stylesheet" href="css/foundation.css">
     <script type="text/javascript" src="js/menu.js" async></script>
+    <script type="text/javascript" src="js/changeMode.js" async></script>
     <title>About Author & Purpose</title>
   </head>
   <body>
@@ -15,6 +16,13 @@
     <header>
       <div id="top">
         <a href="contactGCC.html">469-503-1639</a>
+        <label for="cssOption">Select Mode:</label>
+        <select name="cssChoice" id="cssOption">
+            <option value="select"></option> 
+            <option value="light">Light</option>
+            <option value="regular">Regular</option>
+            <option value="magnified">Magnified</option>
+        </select>
       </div>
       <figure id="logo">
         <a href="aboutGCC.html"><img src="Images/guillenLogo.png" alt="Company Logo"></a>

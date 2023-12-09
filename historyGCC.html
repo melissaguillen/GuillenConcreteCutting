@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/history.css">
+    <link id="baseCSS" rel="stylesheet" href="css/foundation.css">
+    <link id="historyCSS" rel="stylesheet" href="css/history.css">
     <script type="text/javascript" src="js/menu.js" async></script>
+    <script type="text/javascript" src="js/changeMode.js" async></script>
     <title>Past Labor</title>
   </head>
   <body>
@@ -16,6 +17,13 @@
     <header>
       <div id="top">
         <a href="contactGCC.html">469-503-1639</a>
+        <label for="cssOption">Select Mode:</label>
+              <select name="cssChoice" id="cssOption">
+                  <option value="select"></option> 
+                  <option value="light">Light</option>
+                  <option value="regular">Regular</option>
+                  <option value="magnified">Magnified</option>
+              </select>
       </div>
       <figure id="logo">
         <a href="aboutGCC.html"><img src="Images/guillenLogo.png" alt="Company Logo"></a>
@@ -46,28 +54,32 @@
       </div>
       <div id="historyTable">
         <div class="historyRow">
-            <div class="cell"><img class="image" src="Images/residentStairs.jpg" alt="concrete custom walkway"></div>
-            <div class="cell"><a href="https://franchise.screenmobile.com/blog/types-of-clients-commercial-vs-residential/" target=”_blank”> Residential</a> Concrete Walkway </div>
-            <div class="cell">Guillen Concrete Cutting built a custom residential walkway.</div>
+            <div class="historyCell"><img class="image" src="Images/residentStairs.jpg" alt="concrete custom walkway"></div>
+            <div class="historyCell"><a href="https://franchise.screenmobile.com/blog/types-of-clients-commercial-vs-residential/" target=”_blank”> Residential</a> Concrete Walkway </div>
+            <div class="historyCell">Guillen Concrete Cutting built a custom residential walkway.</div>
                 
         </div>
         <div class="historyRow">
-            <div class="cell"><img class="image" src="Images/drivethruExp.jpg" alt="concrete drive thru expansion"></div>
-            <div class="cell">Commercial Drivethru Expansion </div>
-            <div class="cell">Guillen Concrete Cutting expanded a commercial drivethru for Chick-fil-A.</div>
+            <div class="historyCell"><img class="image" src="Images/drivethruExp.jpg" alt="concrete drive thru expansion"></div>
+            <div class="historyCell">Commercial Drivethru Expansion </div>
+            <div class="historyCell">Guillen Concrete Cutting expanded a commercial drivethru for Chick-fil-A.</div>
         </div>
         <div class="historyRow">
-            <div class="cell"><img class="image" src="Images/bollards.jpg" alt="commercial bollard installation"></div>
-            <div class="cell">Commercial <a href="https://en.wikipedia.org/wiki/Bollard" target=”_blank”>Bollard</a> Installation</div>
-            <div class="cell">Guillen Concrete Cutting installed bollards for a commercial building.</div>
+            <div class="historyCell"><img class="image" src="Images/bollards.jpg" alt="commercial bollard installation"></div>
+            <div class="historyCell">Commercial <a href="https://en.wikipedia.org/wiki/Bollard" target=”_blank”>Bollard</a> Installation</div>
+            <div class="historyCell">Guillen Concrete Cutting installed bollards for a commercial building.</div>
         </div>
         <div class="historyRow">
-            <div class="cell"><img class="image" src="Images/angleCut.jpg" alt="concrete cutting at an angle"></div>
-            <div class="cell">Commercial <a href="https://www.capcitycutters.com/what-is-concrete-cutting-and-when-do-you-need-it" target=”_blank”>Concrete Cutting</a></div>
-            <div class="cell">Guillen Concrete Cutting took the challenge of cutting concrete at an angle for a commercial building.</div>
+            <div class="historyCell"><img class="image" src="Images/angleCut.jpg" alt="concrete cutting at an angle"></div>
+            <div class="historyCell">Commercial <a href="https://www.capcitycutters.com/what-is-concrete-cutting-and-when-do-you-need-it" target=”_blank”>Concrete Cutting</a></div>
+            <div class="historyCell">Guillen Concrete Cutting took the challenge of cutting concrete at an angle for a commercial building.</div>
         </div>
       </div>
-      <p>Images were resized using <a href="https://imageresizer.com/" target="_blank">Image Resizer</a>.</p>
+      <section>
+        <h3>Shout Outs!</h3>
+        <p>A special thank you to <a href="https://formsubmit.co/" target="_blank">formsubmit.co</a> for making this submission possible!</p>
+        <p>Video was converted from mov to mp4 using <a href="https://cloudconvert.com/mov-to-mp4" target="_blank">Cloud Convert</a>.</p>
+      </section>
     </main>
     <footer>
       <a href="contactGCC.html">Contact Us</a>

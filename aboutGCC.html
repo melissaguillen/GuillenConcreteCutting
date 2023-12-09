@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/foundation.css">
+    <link id="baseCSS" rel="stylesheet" href="css/foundation.css">
     <script type="text/javascript" src="js/menu.js" async></script>
+    <script type="text/javascript" src="js/changeMode.js" async></script>
     <title>Home</title>
   </head>
   <body>
@@ -15,6 +16,13 @@
     <header>
         <div id="top">
             <a href="contactGCC.html">469-503-1639</a>
+            <label for="cssOption">Select Mode:</label>
+              <select name="cssChoice" id="cssOption">
+                  <option value="select"></option> 
+                  <option value="light">Light</option>
+                  <option value="regular">Regular</option>
+                  <option value="magnified">Magnified</option>
+              </select>
           </div>
           <figure id="logo">
             <a href="aboutGCC.html"><img src="Images/guillenLogo.png" alt="Company Logo"></a>
@@ -51,15 +59,15 @@
      </section>
      <div id="aboutContainer">
       <figure>
-        <img  class="image" src="Images/concreteCut&Rem.jpg" alt="concrete cutting and removal">
+        <img  class="aboutImage" src="Images/concreteCut&Rem.jpg" alt="concrete cutting and removal">
         <figcaption>Concrete Cut & Removal - GCC</figcaption>
       </figure>
       <figure>
-        <img class="image" src="Images/concreteDump.jpg" alt="dumping concrete at dumpsite">
+        <img class="aboutImage" src="Images/concreteDump.jpg" alt="dumping concrete at dumpsite">
         <figcaption>Concrete Dump - GCC</figcaption>
       </figure>
       <figure>
-        <img class="image" src="Images/concreteCutting.jpg" alt="concrete cutting with installations in cuts">
+        <img class="aboutImage" src="Images/concreteCutting.jpg" alt="concrete cutting with installations in cuts">
         <figcaption>Concrete Dump - GCC</figcaption>
       </figure>
      </div>

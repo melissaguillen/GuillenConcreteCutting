@@ -6,19 +6,22 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
-    background-color: #1e3b69;
-    color: white;
+    background-color: white;
+    color: black;
     /* text-align: center; */
 }
 nav {
-    background-color: #5a5a5c;
+    background-color: #b1b1b3;
 }
 main {
     margin-top: 5rem;
+    width: 100%;
     text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 #top {
-    background-color: #5a5a5c;
+    background-color: #b1b1b3;
     width: 100%;
     display: flex;
 }
@@ -38,31 +41,31 @@ nav > ul {
     text-align: center;
 } 
 .menuLinks:hover {
-    background-color: #49494a;
+    background-color: #959596;
 }
 @keyframes navHover {
     0% {
-        background-color: #49494a;
+        background-color: #959596;
     }
     50% {
-        background-color: #964e45;
+        background-color: #eb9b90;
     }
     100% {
-        background-color: #e82a20;
+        background-color: #f04e45;
     }
 }
 .menuLinks:active {
     animation-name: navHover;
     animation-duration: 0.5s;
 }
-@keyframes navOnClick {
+/* @keyframes navOnClick {
     50% {
         border-bottom: 0.5px solid #14294b;
     }
-}
-.selected{
+} */
+/* .selected{
     animation: navOnClick 2s;
-}
+} */
 .menuLinks  {
     padding: 1rem;
     list-style-type: none;
@@ -72,14 +75,14 @@ a{
     display: inline-block;
 }
 a:link{
-    color: #112647;
+    color: #527aba;
 }
 a:visited{
-    color: black;
+    color: rgb(22, 80, 225);
 }
 a:hover {
-    color: red;
-    transform: scale(1.2);
+    color: rgb(250, 56, 56);
+    transform: scale(0.8);
 }
 h1::after {
     content: " ";
@@ -88,11 +91,11 @@ h1::after {
     background-color: black;
     border-radius: 50%;
     display: inline-block;
-    box-shadow: 0 0 0 0.35rem #49494a;
+    box-shadow: 0 0 0 0.35rem #6d6d6e;
 }
 .backgroundImage{
     width: 100%;
-    filter: brightness(40%);
+    filter: brightness(100%);
 }
 /* h1 {
     position: relative;
@@ -106,7 +109,7 @@ h1::after {
     width: 25%;
 }
 figcaption {
-    font-size: xx-small;
+    font-size: small;
     position: relative;
     left: 1.5rem;
     /* text-align: center; */
@@ -116,11 +119,11 @@ section{
     padding: 2rem;
 }
 section:last-child{
-    background-color: white;
-    color: #73737a;
+    background-color: rgb(162, 193, 204);
+    color: #0a0a49;
 }
 footer {
-    background-color: #5a5a5c;
+    background-color: #b1b1b3;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
@@ -151,7 +154,7 @@ footer {
     }
     nav {
         position: relative;
-        top: -2.60rem;
+        top: -2.75rem;
     }
     h1 {
         position: relative;
@@ -181,7 +184,7 @@ footer {
         background-color: black;
         border-radius: 50%;
         display: inline-block;
-        box-shadow: 0 0 0 0.5rem #49494a;
+        box-shadow: 0 0 0 0.5rem #79797a;
     }
     #contactContent > p {
         position: relative;

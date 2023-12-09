@@ -8,6 +8,7 @@ body {
     width: 100%;
     background-color: #1e3b69;
     color: white;
+    font-size: x-large;
     /* text-align: center; */
 }
 nav {
@@ -16,6 +17,14 @@ nav {
 main {
     margin-top: 5rem;
     text-align: center;
+    /* display: flex;
+    flex-direction: row;
+    width: 100%; */
+}
+main > section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 #top {
     background-color: #5a5a5c;
@@ -32,7 +41,7 @@ main {
 }
 nav > ul {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     font-weight: bold;
     text-align: center;
@@ -79,7 +88,7 @@ a:visited{
 }
 a:hover {
     color: red;
-    transform: scale(1.2);
+    transform: rotate(1.05turn);
 }
 h1::after {
     content: " ";
@@ -103,7 +112,7 @@ h1::after {
     width: 100%;
 }
 .image{
-    width: 25%;
+    width: 100%;
 }
 figcaption {
     font-size: xx-small;
@@ -114,6 +123,7 @@ figcaption {
 }
 section{
     padding: 2rem;
+    margin: 0.5rem;
 }
 section:last-child{
     background-color: white;
@@ -141,7 +151,7 @@ footer {
         margin: 1rem 30% 0.5rem;
     }
     #menu {
-        flex-direction: column;
+        flex-direction: row;
     }
     .menuLinks {
         padding: .5rem 1rem;
@@ -155,11 +165,11 @@ footer {
     }
     h1 {
         position: relative;
-        top: -10rem;
+        top: -12rem;
     }
     #contactContent > p {
         position: relative;
-        top: -10rem;
+        top: -12rem;
     }
 }
 @media (min-width: 700px) {
@@ -171,7 +181,7 @@ footer {
     }
     h1 {
         position: relative;
-        top: -20rem;
+        top: -15rem;
         font-size: 3rem;
     }
     h1::after {
@@ -185,7 +195,7 @@ footer {
     }
     #contactContent > p {
         position: relative;
-        top: -20rem;
+        top: -15rem;
     }
 }
 #aboutContainer {
@@ -212,4 +222,3 @@ textarea, button, fieldset {
 #servicesContainer{
     list-style: none;
 }
-

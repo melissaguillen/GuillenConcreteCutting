@@ -5,6 +5,7 @@
     border:  thick solid #73737a;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0.5rem;
 }
 .historyRow {
     display: grid;
@@ -13,23 +14,23 @@
     grid-auto-rows: 100%;
     justify-content: space-between;
 }
-.cell {
+.historyCell {
     width: 100%;
 }
-.cell > img {
+.historyCell > img {
     width: 100%;
 }
-.cell:nth-child(2) {
+.historyCell:nth-child(2) {
     font-weight: bold;
     font-size: larger;
 }
 @media (min-width: 700px) {
-    .cell:nth-child(2) {
+    .historyCell:nth-child(2) {
         grid-column-start: 1;
         grid-row-start: 1;
         font-size: 2rem;
     }
-    .cell > img {
+    .historyCell > img {
         width: 70%;
     }
 }

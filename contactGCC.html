@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link id="baseCSS" rel="stylesheet" href="css/foundation.css">
     <script type="text/javascript" src="js/menu.js" async></script>
+    <script type="text/javascript" src="js/changeMode.js" async></script>
+    <script type="text/javascript" src="js/formValidation.js" async></script>
+    <script type="text/javascript" src="js/dynamicThanks.js" async></script>
     <title>Contact Us</title>
   </head>
   <body>
@@ -16,6 +18,13 @@
     <header>
         <div id="top">
             <a href="contactGCC.html">469-503-1639</a>
+            <label for="cssOption">Select Mode:</label>
+              <select name="cssChoice" id="cssOption">
+                  <option value="select"></option> 
+                  <option value="light">Light</option>
+                  <option value="regular">Regular</option>
+                  <option value="magnified">Magnified</option>
+              </select>
           </div>
           <figure id="logo">
             <a href="aboutGCC.html"><img src="Images/guillenLogo.png" alt="Company Logo"></a>
@@ -54,7 +63,7 @@
               <label for="name">Full Name:</label>
               <input type="text" id="name" name="name" placeholder="Full Name">
               <label for="email">Reply Email:</label>
-              <input type="email" name="email" placeholder="Email Address" required>
+              <input type="email" id="email" name="email" placeholder="Email Address" required>
               <label for="message">Message:</label>
               <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
               <label for="type">Type of Work:</label>
@@ -81,7 +90,7 @@
               <input type="hidden" name="_autoresponse" value="Thank you for contancting Guillen Concrete Cutting, we will address your submission in 1-2 business days!">
               <input type="hidden" name="_subject" value="Contact from Webpage!">
               <input type="hidden" name="_next" value="https://twucsci.github.io/preparing-for-the-final-project-melissaguillen/thanks.html">
-              <button type="submit">Send</button>
+              <button id="submit" type="submit">Send</button>
           </form>
       </section>
       <section>

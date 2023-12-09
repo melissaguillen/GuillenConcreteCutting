@@ -1,0 +1,9 @@
+#aboutContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    width: 100%;
+}
+.aboutImage {
+    width: 100%;
+}
