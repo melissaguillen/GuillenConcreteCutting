@@ -212,4 +212,28 @@ textarea, button, fieldset {
 #servicesContainer{
     list-style: none;
 }
-
+input[type="radio"]{
+    color: white;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #49494a;
+    border-radius: 50%;
+}
+input[type="radio"]:checked{
+    background-color: #49494a;
+}
+input,textarea{
+    background-color: white;
+    color: #49494a;
+    font-size: small;
+}
+button:hover{
+    background-color: #49494a;
+    color: #f7f4f6;
+    border: 1px solid #49494a;
+}
+button:active{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
