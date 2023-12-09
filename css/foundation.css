@@ -94,10 +94,9 @@ h1::after {
     width: 100%;
     filter: brightness(40%);
 }
-/* h1 {
-    position: relative;
-    top: -20rem;
-} */
+h1 {
+    font-weight: bolder;
+}
 .embed {
     aspect-ratio: 16 / 9;
     width: 100%;
@@ -156,6 +155,7 @@ footer {
     h1 {
         position: relative;
         top: -10rem;
+        font-size: 2rem;
     }
     #contactContent > p {
         position: relative;
