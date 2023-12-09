@@ -26,7 +26,7 @@ Markdown Guide Website: [MarkDown Guide](https://www.markdownguide.org/basic-syn
 to do labor relating to concrete. Age: 39+ Gender: Majority Men 
 Demographics: White (61.9%), Hispanic or Latino (24.1%), Black or African 
 American (8%) and Unknown (3.7%)
- - Frameworks and/or library used:Broostrap & JavaScript
+ - Frameworks and/or library used: JavaScript
  - Additional Notes:N/A
 
 # Project Plan
@@ -80,21 +80,30 @@ think the purpose is delivered well with that color.
 These Timeline milestones are an example for project progression and do not, with the exception of the Due Date for the final submission, do not conform to assignment requirements. You can add and adjust your timeline as you see fit.
 
 - [X] Choose revised project topic and update this readme - Sunday, October 22.
-- [ ] Complete initial project design - Due Date
-- [ ] Milestone 1 - Due Date
-- [ ] Milestone 2 - Due Date
-- [ ] Site testing - Due Date
-- [ ] Complete Final Project - **Friday, December 8**
+- [X] Complete initial project design - Due Date
+- [X] Milestone 1 - Due Date
+- [X] Milestone 2 - Due Date
+- [X] Site testing - Due Date
+- [X] Complete Final Project - **Friday, December 8**
 
 ## Updates
 
 As you work on the project, use this section to track:
 
-- Status updates: adding visual project plan pdf
-- Changes to the original plan
-- Anything learned along the way
-- Next steps
+- Status updates: finishing website
+- Changes to the original plan: I decided to add a dynamic thank you page, 
+this page can only be accessed after proper form inputs from the contact 
+page
+ - Anything learned along the way: I learned more about grid styling, I 
+had a little trouble understanding it before and now that I got to use it 
+more I understand it a lot better. I also learned about localStorage, I 
+was able to use it but I had trouble when it came to clearing it for the 
+next submission. I also got a better understanding as to how useful having 
+styling multiple styling sheets is.
+ - Next steps: I will definetely look back on this and refine it because I 
+would like it to be launched so that it can be used.
 
 ## Images
 
 You can add any images to this section
+All of my Images and visuals are in the Images or Icons folder.
