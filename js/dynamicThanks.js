@@ -1,10 +1,11 @@
 let fullname = document.getElementById("name");
 let submit = document.getElementById("submit");
 let h1 = document.getElementById("dynamicThanksies");
-let thankU;
 
-// submit.addEventListener("click", function(){
-//     thankU = fullname.value;
-// });
-h1.innerHTML = "Thank You!";
-    // h1.innerHTML = "Thank You, " +thankU+ "!";
+
+submit.addEventListener("click", function(){
+   var thankU = localStorage.setItem("fullname", fullname.value);
+});
+    var Tname = localStorage.getItem("fullname");
+    var text = document.createTextNode("Thank You, "+Tname+ "!")
+    h1.appendChild(text);
