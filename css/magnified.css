@@ -103,8 +103,9 @@ h1::after {
     width: 100%;
     filter: brightness(40%);
 }
-h1 {
+h1, h3, h2 {
     font-weight:bolder;
+    font-size: larger;
 }
 .embed {
     aspect-ratio: 16 / 9;
