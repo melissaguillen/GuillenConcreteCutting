@@ -99,7 +99,9 @@ had a little trouble understanding it before and now that I got to use it
 more I understand it a lot better. I also learned about localStorage, I 
 was able to use it but I had trouble when it came to clearing it for the 
 next submission. I also got a better understanding as to how useful having 
-styling multiple styling sheets is.
+styling multiple styling sheets is. I also learned about CORS and 
+Access-Control-Allow-Origin though I was not able to implement it, I ran 
+into that error. 
  - Next steps: I will definetely look back on this and refine it because I 
 would like it to be launched so that it can be used.
 
