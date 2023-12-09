@@ -1,4 +1,3 @@
-var fullname = document.getElementById("name");
 var submit = document.getElementById("submit");
 
 submit.addEventListener("click", function(){
