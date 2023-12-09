@@ -1,3 +1,6 @@
 let h1 = document.getElementById("dynamicThanksies");
-var text = document.createTextNode("Thank You!")
+var thanksName = localStorage.getItem("fullname");
+var text = document.createTextNode("Thank You, "+thanksName+ "!")
  h1.appendChild(text);
+
+
