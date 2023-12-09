@@ -9,7 +9,7 @@ var text = document.createTextNode("Thank You, "+thanksName+ "!")
  request.open("GET", "https://zenquotes.io/api/random");
  request.responseType = "json";
  request.send();
- request.onload(function(){
+ request.onload = function(){
     if (request.readyState == 4 && request.status == 200) {
         var apiResponse = request.response;
         var parsedResponse = JSON.parse(apiResponse);
@@ -21,7 +21,7 @@ var text = document.createTextNode("Thank You, "+thanksName+ "!")
         alert ("Error:" +request.status);
     }
         
- });
+ };
 
 
 
